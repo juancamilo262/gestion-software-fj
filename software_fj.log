@@ -1,0 +1,15 @@
+2026-11-21 22:27:06,682 | INFO | Cliente agregado: Cliente CL1 - Camila Vargas (camila.vargas@correo.com) [Activo]
+2026-11-21 22:27:06,684 | ERROR | Error registrando cliente CL2: Correo no válido: mateo_sin_arroba.com
+2026-11-21 22:27:06,686 | INFO | Cliente agregado: Cliente CL3 - Sofía Mendoza (sofia.mendoza@correo.com) [Activo]
+2026-11-21 22:27:06,688 | INFO | Servicio agregado: Sala SL1 'Sala Reuniones B' (cap. 10) | Tarifa: $75,000.00 | Disponible
+2026-11-21 22:27:06,688 | ERROR | Error creando equipo EQ1: La tarifa diaria debe ser positiva.
+2026-11-21 22:27:06,690 | INFO | Servicio agregado: Asesoría AS1 'Consultoría Python' (área Desarrollo) | Tarifa: $120,000.00 | Disponible
+2026-11-21 22:27:06,712 | INFO | Reserva RS1 procesada. Total: $160,650.00 | Reserva RS1 | Camila Vargas | Sala SL1 'Sala Reuniones B' (cap. 10) | Duración: 2 | Total: $160,650.00 | PROCESADA
+2026-11-21 22:27:06,714 | INFO | Fin de intento de reserva RS1 (completada=True)
+2026-11-21 22:27:06,714 | ERROR | Fallo procesando reserva RS2: El servicio SL1 no está disponible.
+2026-11-21 22:27:06,715 | INFO | Fin de intento de reserva RS2 (completada=False)
+2026-11-21 22:27:06,715 | INFO | Reserva RS3 procesada. Total: $386,631.00 | Reserva RS3 | Sofía Mendoza | Asesoría AS1 'Consultoría Python' (área Desarrollo) | Duración: 3 | Total: $386,631.00 | PROCESADA
+2026-11-21 22:27:06,719 | INFO | Fin de intento de reserva RS3 (completada=True)
+2026-11-21 22:27:06,720 | INFO | Reserva RS3 cancelada.
+2026-11-21 22:27:06,723 | ERROR | Fallo procesando reserva RS4: La cantidad o duración debe ser un entero mayor que 0.
+2026-11-21 22:27:06,726 | INFO | Fin de intento de reserva RS4 (completada=False)
